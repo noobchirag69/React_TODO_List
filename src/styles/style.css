@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 155, 155), rgb(255, 255, 165));
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    padding: 40px;
+    background-color: bisque;
+    box-shadow: 0 3px 15px #777;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-container {
+    padding: 10px;
+    display: flex;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid #777;
+}
+
+.task-container input {
+    margin-right: 10px;
+}
+
+.taskName {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0 3px 15px #777;
+}
+
+.taskName:focus {
+    border: 2px solid crimson;
+}
+
+.button-container button {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(64, 64, 64);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.leftTasks {
+    padding: 5px;
+    margin-top: 15px;
+    background-color: coral;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px #777;
+    font-weight: bold;
+}
+
+.leftTasks p {
+    text-align: center;
+}
